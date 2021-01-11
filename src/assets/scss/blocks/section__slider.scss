@@ -1,0 +1,147 @@
+.section__shop {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #E5E5E5;
+
+
+    .wrapper__section {
+        max-width: 1110px;
+        margin: 0 auto;
+
+
+        .title__block {
+            text-align: center;
+            padding-top: 100px;
+            color: $black;
+
+
+
+
+            .shop__title {
+                font-family: 'Noto Serif';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 41px;
+            }
+        }
+
+
+        .inner__shop-blocks {
+            max-width: 1110px;
+            padding-bottom: 120px;
+
+            .list__shop {
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+
+                .button__shop {
+                    width: 165px;
+                    height: 60x;
+                    color: black;
+                    display: block;
+                    margin-left: 24px;
+                    border: 1px solid gray;
+                    padding: 20px 37px 20px 36px;
+                    text-transform: uppercase;
+                    @include Gilory__500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    letter-spacing: 0.1em;
+                    cursor: pointer;
+                    animation-name: sheen;
+
+
+
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+
+                    &:hover {
+                        transform: translate(-6%, -6%);
+                        transition: .3s ease;
+                        background: #333333;
+                        color: white;
+
+                    }
+
+                }
+
+                .button__shop-five {
+                    padding: 20px 0 20px 0;
+                }
+            }
+
+
+
+            .cards__slider {
+                margin-top: 55px;
+                max-width: 1110px;
+
+                .list__slider-pic {
+                    display: flex;
+                    padding: 0;
+                    margin-bottom: 0;
+                    margin-top: 0;
+
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+
+
+
+                    .pic__slider {
+                        display: block;
+                        max-width: 350px;
+                        max-height: 280px;
+
+                        position: relative;
+
+                        &:hover{
+                           transform: scale(1.1);
+                           transition: .4s;
+                           transform: translate(-6%, -6%);
+                        }
+                    }
+
+                    .item__slider-pic {
+                        .title__slider-pic {
+                            position: absolute;
+                            z-index: 5;
+                            margin-left: 122px;
+                            margin-top: -60px;
+                            @include Gilory__500;
+                            font-size: 24px;
+                            line-height: 28px;
+
+                            letter-spacing: 0.1em;
+                            text-transform: uppercase;
+
+                        }
+
+                        margin-bottom: 30px;
+                        max-width: 350px;
+                        max-height: 280px;
+
+                        &:nth-child(1n+4) {
+                            margin-bottom: 0;
+                        }
+
+                    }
+
+
+                }
+            }
+
+            .slider__off{
+                display: none;
+            }
+        }
+    }
+
+
+
+
+}

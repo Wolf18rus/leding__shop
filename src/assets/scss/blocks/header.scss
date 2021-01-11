@@ -1,7 +1,7 @@
 .header {
     max-width: 1920px;
     background-image: url(/assets/images/background__header.jpg);
-    z-index: 50;
+
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -127,12 +127,14 @@
             font-family: "Gilroy-Regular";
             font-size: 14px;
             font-weight: 400;
+            display: flex;
 
         }
 
 
         .personal__block {
             padding-left: 44px;
+            display: flex;
 
             .link__personal {
                 margin-right: 30px;
@@ -159,8 +161,9 @@
     display: block;
     text-align: center;
     margin-top: 523px;
-    margin-bottom: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 107px;
+
+
 
     .header__title {
         margin-bottom: 50px;
@@ -197,17 +200,53 @@
     }
 }
 
-.header__card-pic{
+.header__cards-block {
     max-width: 1920px;
     
+    height: 120px;
+    border-top: 1px solid gray;
+    z-index: 3;
 
-    .inner__header-cards{
-        max-width: 1110px;
 
-        img{
-            width: 160px;
-            height: 60px;
-            display: block;
+
+
+}
+
+.inner__header-cards {
+    max-width: 1110px;
+    height: 60px;
+    margin-left: 405px;
+    margin-right: 405px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+
+
+    img {
+        width: 160px;
+        height: 60px;
+
+        display: flex;
+
+        border-right: 1px solid gray;
+        padding-right: 15px;
+
+
+
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+            border: none;
         }
     }
+
+
+
 }
