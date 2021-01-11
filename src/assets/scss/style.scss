@@ -1,0 +1,28 @@
+@import "fonts";
+// @import "/src/assets/other/rule.scss";
+@import "vars";
+
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: $white;
+    font-size : 21px;
+    color     : white;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+@import "blocks/header.scss";

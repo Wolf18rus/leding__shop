@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url(/src/assets/fonts/Gilroy-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+  src: url(/src/assets/fonts/Gilroy-Regular.woff);
+  font-weight: 500;
+  font-style: normal;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-size: 21px;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    max-width: 1920px;
+    background-image: url(/assets/images/background__header.jpg);
+    z-index: 50;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    max-width: 1110px;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 405px;
+    margin-right: 405px;
+    padding-top: 25px;
+}
+
+.list__menu {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+}
+
+.list__menu .link__menu {
+    color: #ffffff;
+    margin-left: 40px;
+    font-family: "Gilroy-Regular";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.list__menu .link__menu-first {
+    margin-left: 0;
+}
+
+.logo__menu {
+    margin-left: 126px;
+    width: 216px;
+    height: 52px;
+}
+
+.menu__registr {
+    margin-left: 136px;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 18px;
+    padding-left: 13px;
+}
+
+.menu__registr .button__search__menu {
+    width: 40px;
+    height: 21px;
+    border: 0;
+    background: transparent;
+    color: #ffffff;
+    font-family: "Gilroy-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.menu__registr .personal__regist {
+    margin-left: 40px;
+}
+
+.menu__registr .personal__regist a {
+    color: #ffffff;
+}
+
+.menu__registr .personal__regist .registr__accounts {
+    font-family: "Gilroy-Regular";
+    font-size: 14px;
+    font-weight: 400;
+}

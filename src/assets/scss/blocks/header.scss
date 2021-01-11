@@ -1,0 +1,213 @@
+.header {
+    max-width: 1920px;
+    background-image: url(/assets/images/background__header.jpg);
+    z-index: 50;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+
+.header__wrapper {
+    max-width: 1110px;
+    display: flex;
+    margin-left: 405px;
+    margin-right: 405px;
+    padding-top: 25px;
+
+}
+
+.list__menu {
+    display: flex;
+    padding-left: 0;
+    margin-top: 10px;
+
+    .link__menu {
+        color: $white;
+        margin-left: 40px;
+        font-family: "Gilroy-Regular";
+        font-size: 14px;
+        font-weight: 400;
+
+        &:hover {
+            color: gray;
+            transition: .3s ease;
+            transform: scale(1.2);
+
+        }
+
+
+    }
+
+    .link__menu-first {
+        margin-left: 0;
+    }
+
+}
+
+.logo__menu {
+    text-align: center;
+    width: 216px;
+    height: 52px;
+    display: block;
+    margin-left: 140px;
+
+
+}
+
+.button__search__menu {
+
+    position: relative;
+
+
+
+
+}
+
+.button__search__menu::before {
+    content: "";
+    display: block;
+    margin-left: -34px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    padding-left: 16px;
+    background-image: url(/assets/images/svg/search.svg);
+
+
+
+}
+
+.menu__registr {
+    margin-left: 136px;
+    display: flex;
+    padding-top: 18px;
+    padding-left: 13px;
+
+
+    .button__search__menu {
+        width: 40px;
+        height: 21px;
+        border: 0;
+        background: transparent;
+        color: $white;
+        font-family: "Gilroy-Regular";
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+
+        &:hover {
+            color: gray;
+            transition: .3s ease;
+            transform: scale(1.2);
+
+        }
+
+    }
+
+    .personal__regist {
+        margin-left: 40px;
+        display: flex;
+
+        a {
+            color: $white;
+
+            &:hover {
+                color: gray;
+                transition: .3s ease;
+                transform: scale(1.2);
+
+            }
+        }
+
+        .registr__accounts {
+            font-family: "Gilroy-Regular";
+            font-size: 14px;
+            font-weight: 400;
+
+        }
+
+
+        .personal__block {
+            padding-left: 44px;
+
+            .link__personal {
+                margin-right: 30px;
+
+
+
+
+            }
+
+            img {
+                &:hover {
+                    transform: scale(1.2);
+                    transition: .4s ease;
+                }
+
+            }
+        }
+
+
+    }
+}
+
+.header__title-block {
+    display: block;
+    text-align: center;
+    margin-top: 523px;
+    margin-bottom: 50px;
+    margin-bottom: 80px;
+
+    .header__title {
+        margin-bottom: 50px;
+    }
+
+
+    .header__catalog {
+        @include Gilory__500;
+        font-weight: 18px;
+        text-transform: uppercase;
+        padding: 15px 35px;
+        border: 1px solid $white;
+        letter-spacing: 0.1em;
+        background: transparent;
+        cursor: pointer;
+        color: $white;
+
+
+
+
+        &:hover {
+            background-color: gray;
+            color: black;
+
+            transition: .4s ease;
+            animation-name: batton;
+            transform: translateY(50%);
+
+        }
+
+
+
+
+    }
+}
+
+.header__card-pic{
+    max-width: 1920px;
+    
+
+    .inner__header-cards{
+        max-width: 1110px;
+
+        img{
+            width: 160px;
+            height: 60px;
+            display: block;
+        }
+    }
+}
