@@ -1,0 +1,81 @@
+.social__block {
+    width: 1110px;
+    display: block;
+
+
+  
+    margin: 120px auto 0;
+    padding-bottom: 150px;
+
+    .social__title-blocks {
+        text-align: center;
+        color: $black;
+
+
+        .social__title {
+            padding-bottom: 60px;
+            margin-bottom: -2px;
+            margin-top: 22px;
+            font-family: "Noto Serif";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 41px;
+        }
+    }
+
+    .social__cards {
+        width: 1110px;
+        display: flex;
+        flex-wrap: wrap;
+
+
+        .social__video {
+            width: 50%;
+
+
+            display: block;
+            position: relative;
+            margin-bottom: 0;
+
+
+            .button__social-player {
+                position: absolute;
+                background-image: url(/assets/images/svg/social__btn.svg);
+                display: block;
+                width: 70px;
+                height: 70px;
+                border: none;
+                border-radius: 50%;
+                margin: 115px 242px;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.1);
+                    transition: 0.3s;
+                }
+
+
+            }
+
+
+
+        }
+
+        .social__pic {
+            width: 25%;
+            display: block;
+            border: none;
+        }
+
+        .video__one {
+            background-image: url(/assets/images/sosial__pic-video.png)
+        }
+
+        .video__second {
+            background-image: url(/assets/images/social__pic-video-2.png)
+        }
+
+
+    }
+}

@@ -1,0 +1,70 @@
+.section__moscow {
+    max-width: 1920px;
+    background-image: url(/assets/images/bg__moscow.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+
+    margin: 0 auto;
+
+
+    .wrapper__moscow {
+        text-align: center;
+        display: block;
+        padding-top: 103px;
+        padding-bottom: 97px;
+    }
+
+    .sub__title {
+        font-family: "Gilroy-Regular";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 29px;
+        /* or 29px */
+
+        text-align: center;
+    }
+
+    .title__moscow {
+        font-family: "Noto Serif";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 41px;
+        margin-top: 16px;
+    }
+
+    .desc__moscow {
+        display: inline-block;
+        width: 730px;
+        text-align: center;
+        font-family: "Gilroy-Medium";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 60px;
+
+
+    }
+}
+
+
+.button__moscow {
+    display: block;
+    border: 1px solid #333333;
+    background: $white;
+
+    text-transform: uppercase;
+    font-family: "Gilroy-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    padding: 15px 35px;
+    margin: auto;
+    cursor: pointer;
+
+}

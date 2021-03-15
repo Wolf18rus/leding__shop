@@ -1,0 +1,167 @@
+.footer__site {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: $white;
+
+    .footer__wrapper {
+        color: #333333;
+        max-width: 1110px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+
+        .footer__sections {
+            width: 255px;
+            height: auto;
+
+
+            .title__sections-footer {
+                font-family: "Gilroy-Medium";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 25px;
+                margin-top: 0;
+                margin-bottom: 0;
+                /* or 25px */
+                display: block;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+
+
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 100%;
+                    margin-top: 10px;
+                    margin-bottom: 30px;
+                    height: 1px;
+                    background: #333333;
+                }
+            }
+
+            .list__footer {
+                padding-left: 0;
+
+
+                .link__footer {
+                    @include Gilory__400-footer;
+                    margin-top: 15px;
+                }
+            }
+
+            .desc__pay-footer {
+                width: 100%;
+                @include Gilory__400-footer;
+            }
+
+            .link__pay-card {
+                margin-left: 10px;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+
+
+
+            .contacs__footer {
+
+                .link__contct {
+                    @include Gilory__400-footer;
+                    display: flex;
+
+
+
+
+                    margin-bottom: 10px;
+
+                    &::before {
+                        content: '';
+                        display: block;
+                        width: 20px;
+                        height: 16px;
+                        background-image: url(/assets/images/svg/phone-icons-footer.svg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        margin-right: 20px;
+
+                    }
+
+
+                }
+
+                .link__contct-email {
+
+
+
+                    &::before {
+                        content: '';
+                        display: block;
+                        width: 18px;
+                        height: 12px;
+                        background-image: url(/assets/images/svg/email-icons-footer.svg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        margin-right: 20px;
+                        margin-top: 5px;
+
+                    }
+                }
+
+
+
+
+            }
+
+
+
+            .list__icon-social {
+                display: flex;
+                justify-content: flex-start;
+                padding-left: 0;
+
+                .Vk__left {
+                    margin-left: 22px;
+                }
+
+                .facebook__left {
+                    margin-left: 28px;
+                }
+
+                .telegram__left {
+                    margin-left: 30px;
+                }
+
+                .elemnt__left {
+                    margin-left: 28px;
+                }
+
+
+            }
+        }
+    }
+
+    .footer__copyright {
+        display: block;
+        max-width: 1110px;
+        border-top: 1px solid #333333;
+        margin: 0 auto;
+
+
+        .list__copyright {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 0;
+            @include Gilory__400-footer;
+
+            .figma__line {
+                text-decoration: underline;
+                color: #333333;
+            }
+        }
+    }
+
+
+}

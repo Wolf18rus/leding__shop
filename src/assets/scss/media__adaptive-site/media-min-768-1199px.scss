@@ -1,0 +1,181 @@
+@media (min-width:768px) and (max-width:1199px) {
+    body {
+        min-width: 768px;
+        margin-left: 0;
+    }
+
+    .header {
+        min-width: 768px;
+        max-width: 1199px;
+        height: 100%;
+
+        .nav,
+        .menu__registr {
+            display: none;
+
+        }
+
+        .header__wrapper {
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .logo__menu {
+            margin: auto;
+
+        }
+
+        .header__title-block {
+            margin-top: 230px;
+
+        }
+    }
+
+    .inner__shop-blocks {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .list__shop {
+        display: flex;
+
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+            margin-right: 0;
+            margin-bottom: 10px;
+            width: 165px;
+
+            &:first-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .list__slider-pic {
+        display: flex;
+        padding: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+        flex-wrap: wrap;
+
+
+    }
+
+    .item__shop {
+        width: 30%;
+    }
+}
+
+
+.pic__slider {
+
+
+    &:hover {
+        transform: none;
+
+
+    }
+}
+
+
+
+.section__aside {
+    min-width: 768px;
+
+
+    .wrapper__aside {
+        width: 100%;
+
+        .title__aside {
+            width: 100%;
+        }
+
+    }
+
+    .cards__aside {
+        padding-left: 15px;
+        padding-right: 15px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        justify-content: space-around;
+
+        .card__aside{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.social__block{
+    min-width: 768px;
+    width: 100%;
+    .social__title-blocks{
+        width: 100%;
+    }
+   
+
+    .social__cards{
+        width: 100%;
+    }
+
+}
+
+.section__mailing{
+    .block__form{
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        .list__mailing{
+            margin-left: 0;
+        }
+    }
+
+}
+
+
+
+
+
+.wrapper__form{
+    width: 100%;
+}
+
+.footer__site{
+    width: 100%
+
+    
+}
+
+.footer__wrapper{
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width:1110px;
+    min-width: 768px;
+    justify-content: center;
+    margin: auto;
+   .footer__sections{
+       width: 50%;
+
+       .title__sections{
+           &::after{
+              width: 90%;
+           }
+       }
+   }
+
+}
+
+.footer__copyright{
+    width: 100%;
+}
+
+.list__copyright{
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}

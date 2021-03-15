@@ -1,0 +1,120 @@
+.section__mailing {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-image: url(/assets/images/mailing__bg.png);
+    height: 100%;
+
+
+    .wrapper__mailing {
+        max-width: 1110px;
+        margin: auto;
+        padding-top: 102px;
+
+        .title__block {
+            text-align: center;
+            width: 100%;
+
+            .title__mailing {
+                font-family: "Noto Serif";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 41px;
+                margin-top: 15px;
+            }
+
+
+
+        }
+    }
+
+
+    .block__form {
+        display: flex;
+        margin-top: 60px;
+
+        .list__mailing {
+            margin-left: 150px;
+            margin-top: 8px;
+            padding-left: 0;
+
+            li {
+                font-family: "Gilroy-Regular";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                padding-left: 40px;
+                background-image: url(/assets/images/svg/figure__mailing.svg);
+                background-repeat: no-repeat;
+                background-position: 3px;
+                margin-bottom: 15px;
+            }
+        }
+
+
+        .wrapper__form {
+            margin-left: 80px;
+            padding: 15px 13px 1px;
+            margin-top: 0;
+            display: inline-block;
+            height: 116px;
+
+            border: 1px solid #FFFFFF;
+            margin-bottom: 120px;
+
+
+
+
+            .form__mailing {
+                background: $white;
+                padding: 17px 22px;
+
+            }
+
+
+            .input__mailing {
+
+
+
+                font-family: "Gilroy-Medium";
+
+                font-style: normal;
+
+                font-weight: 500;
+                font-size: 14px;
+                width: 200px;
+
+
+                text-transform: uppercase;
+                padding: 9px 0 14px 35px;
+
+
+                &::placeholder {
+                    padding-left: 0;
+                }
+
+            }
+
+            .button__mailing {
+                border: 1px solid #FFFFFF;
+                background: #333333;
+                font-family: "Gilroy-Medium";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                padding: 15.5px 34px;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                margin-left: 8px;
+
+                color: $white;
+            }
+
+
+        }
+    }
+
+
+}

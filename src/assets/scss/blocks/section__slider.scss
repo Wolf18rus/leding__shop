@@ -8,11 +8,19 @@
         max-width: 1110px;
         margin: 0 auto;
 
+        .shop__subtitle {
+            font-family: "Gilroy-Regular";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 21px;
+            line-height: 29px;
+            color: #333333;
+        }
 
         .title__block {
             text-align: center;
             padding-top: 100px;
-            color: $black;
+            color: #333333;
 
 
 
@@ -23,13 +31,15 @@
                 font-weight: bold;
                 font-size: 30px;
                 line-height: 41px;
+                margin-top: 17px;
             }
         }
 
 
         .inner__shop-blocks {
             max-width: 1110px;
-            padding-bottom: 120px;
+            padding-bottom: 116px;
+            margin-top: 58px;
 
             .list__shop {
                 display: flex;
@@ -86,9 +96,10 @@
                     padding: 0;
                     margin-bottom: 0;
                     margin-top: 0;
+                    justify-content: space-between;
 
                     flex-wrap: wrap;
-                    justify-content: space-between;
+                    
 
 
 
@@ -99,10 +110,10 @@
 
                         position: relative;
 
-                        &:hover{
-                           transform: scale(1.1);
-                           transition: .4s;
-                           transform: translate(-6%, -6%);
+                        &:hover {
+                            transform: scale(1.05);
+                            transition: .4s;
+                           
                         }
                     }
 
@@ -135,8 +146,18 @@
                 }
             }
 
-            .slider__off{
+            .slider__off {
                 display: none;
+            }
+
+            .slider__on {
+                display: block;
+            }
+
+           
+
+            .active__slider {
+                background-color: green;
             }
         }
     }

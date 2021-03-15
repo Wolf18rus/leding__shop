@@ -1,0 +1,149 @@
+.section__aside {
+    max-width: 1920px;
+    margin: 0 auto;
+
+    background: #E5E5E5;
+
+
+    .wrapper__aside {
+        width: 1110px;
+        margin: 0 auto;
+        color: $black;
+        text-align: center;
+        padding-top: 122px;
+        color: #333333;
+
+        .sub__title-aside {
+            font-family: "Gilroy-Regular";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 21px;
+            line-height: 29px;
+            /* or 29px */
+
+            text-align: center;
+
+            /* accent */
+
+            color: #333333;
+
+        }
+
+        .title__aside {
+            font-family: "Noto Serif";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 41px;
+            width: 1110px;
+            margin-top: 15px;
+
+        }
+
+
+
+
+
+        .cards__aside {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+
+            .card__aside {
+                width: 350px;
+                height: 370px;
+                display: block;
+
+
+                .desc__card-aside {
+                    margin-top: 248px;
+                    color: $white;
+                }
+
+            }
+
+            .bachground__card-1 {
+                background-image: url(/assets/images/card__aside-1.png);
+                z-index: 5;
+
+                .width__desc-1 {
+                    width: 154px;
+                    font-family: "Gilroy-Regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 29px;
+                    margin-left: 98px;
+
+
+                }
+            }
+
+            .bachground__card-2 {
+                background-image: url(/assets/images/card__aside-2.png);
+                z-index: 5;
+
+                .width__desc-2 {
+                    width: 204px;
+                    font-family: "Gilroy-Regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 29px;
+                    margin-left: 73px;
+                    display: block;
+
+
+                }
+            }
+
+            .bachground__card-3 {
+                background-image: url(/assets/images/card__aside-3.png);
+                z-index: 5;
+
+                .width__desc-3 {
+                    width: 206px;
+                    font-family: "Gilroy-Regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 29px;
+                    margin-left: 72px;
+                    height: 87px;
+
+                }
+            }
+
+
+
+
+        }
+
+        .button__aside {
+            display: block;
+            margin: auto;
+
+            margin-top: 61px;
+            padding: 13px 33px ;
+            cursor: pointer;
+
+            font-family: "Gilroy-Medium";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+
+            border: 1px solid #FFFFFF;
+
+
+            &:hover {
+                background: #333333;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+}

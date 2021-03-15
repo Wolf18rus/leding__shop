@@ -5,5 +5,15 @@ $black:#000000;
 @mixin Gilory__500 {
     font-family: "Gilroy-Medium";
     font-weight: 500;
-    
+
+}
+
+@mixin Gilory__400-footer {
+
+    font-family: "Gilroy-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
 }
